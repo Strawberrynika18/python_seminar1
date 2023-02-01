@@ -1,0 +1,332 @@
+2023-02-01 22:55:38,447 - telegram.ext._application - INFO - Application started
+2023-02-01 22:57:36,070 - root - INFO - message from: вероника, text: 28 
+2023-02-01 22:57:41,717 - root - INFO - message from: вероника, text: 28 
+2023-02-01 22:57:49,831 - root - INFO - message from: вероника, text: 28 
+2023-02-01 22:57:55,366 - root - INFO - message from: вероника, text: 1 
+2023-02-01 22:58:14,558 - root - INFO - message from: вероника, text: 1+2-3 
+2023-02-01 23:00:38,784 - root - INFO - message from: вероника, text: 1+4 
+2023-02-01 23:01:34,951 - root - INFO - message from: вероника, text: ( 2 + ( 1 + 3 ) ) * ( 1 + 1 + 2 ) - ( 7 + 6 * 2 / 3 ) 
+2023-02-01 23:03:46,466 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2023-02-01 23:03:46,470 - telegram.ext._application - INFO - Application.stop() complete
+2023-02-01 23:03:48,465 - telegram.ext._application - INFO - Application started
+2023-02-01 23:04:15,412 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 94, in button
+    await self.start_button(query_data=query_data)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 106, in start_button
+    await self.start(self.msg_update, self.msg_context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 76, in start
+    self.current_user_id = update.message.from_user.id
+AttributeError: 'tuple' object has no attribute 'message'
+2023-02-01 23:04:23,221 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 94, in button
+    await self.start_button(query_data=query_data)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 106, in start_button
+    await self.start(self.msg_update, self.msg_context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 76, in start
+    self.current_user_id = update.message.from_user.id
+AttributeError: 'tuple' object has no attribute 'message'
+2023-02-01 23:04:24,423 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 96, in button
+    await self.GameCandy(self.msg_update, self.msg_context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 145, in GameCandy
+    self.current_gamer[update.message.from_user.id] = 'candy'
+AttributeError: 'tuple' object has no attribute 'message'
+2023-02-01 23:04:25,139 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 98, in button
+    await self.GameCalc(self.msg_update, self.msg_context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 153, in GameCalc
+    self.current_gamer[update.message.from_user.id] = 'calc'
+AttributeError: 'tuple' object has no attribute 'message'
+2023-02-01 23:06:17,037 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 94, in button
+    await self.start_button(query_data=query_data)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 106, in start_button
+    await self.start(self.msg_update, self.msg_context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 76, in start
+    self.current_user_id = update.message.from_user.id
+AttributeError: 'tuple' object has no attribute 'message'
+2023-02-01 23:06:26,952 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2023-02-01 23:06:26,952 - telegram.ext._application - INFO - Application.stop() complete
+2023-02-01 23:08:19,052 - telegram.ext._application - INFO - Application started
+2023-02-01 23:08:19,370 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 88, in button
+    await query.answer()
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_callbackquery.py", line 190, in answer
+    api_kwargs=api_kwargs,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_extbot.py", line 762, in answer_callback_query
+    api_kwargs=self._merge_api_rl_kwargs(api_kwargs, rate_limit_args),
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 334, in decorator
+    result = await func(*args, **kwargs)  # skipcq: PYL-E1102
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 3225, in answer_callback_query
+    api_kwargs=api_kwargs,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 428, in _post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_extbot.py", line 312, in _do_post
+    read_timeout=read_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 459, in _do_post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\request\_baserequest.py", line 172, in post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\request\_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Query is too old and response timeout expired or query id is invalid
+2023-02-01 23:08:19,626 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 88, in button
+    await query.answer()
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_callbackquery.py", line 190, in answer
+    api_kwargs=api_kwargs,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_extbot.py", line 762, in answer_callback_query
+    api_kwargs=self._merge_api_rl_kwargs(api_kwargs, rate_limit_args),
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 334, in decorator
+    result = await func(*args, **kwargs)  # skipcq: PYL-E1102
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 3225, in answer_callback_query
+    api_kwargs=api_kwargs,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 428, in _post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_extbot.py", line 312, in _do_post
+    read_timeout=read_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 459, in _do_post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\request\_baserequest.py", line 172, in post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\request\_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Query is too old and response timeout expired or query id is invalid
+2023-02-01 23:08:19,713 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 88, in button
+    await query.answer()
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_callbackquery.py", line 190, in answer
+    api_kwargs=api_kwargs,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_extbot.py", line 762, in answer_callback_query
+    api_kwargs=self._merge_api_rl_kwargs(api_kwargs, rate_limit_args),
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 334, in decorator
+    result = await func(*args, **kwargs)  # skipcq: PYL-E1102
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 3225, in answer_callback_query
+    api_kwargs=api_kwargs,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 428, in _post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_extbot.py", line 312, in _do_post
+    read_timeout=read_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 459, in _do_post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\request\_baserequest.py", line 172, in post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\request\_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Query is too old and response timeout expired or query id is invalid
+2023-02-01 23:08:19,797 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 88, in button
+    await query.answer()
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_callbackquery.py", line 190, in answer
+    api_kwargs=api_kwargs,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_extbot.py", line 762, in answer_callback_query
+    api_kwargs=self._merge_api_rl_kwargs(api_kwargs, rate_limit_args),
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 334, in decorator
+    result = await func(*args, **kwargs)  # skipcq: PYL-E1102
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 3225, in answer_callback_query
+    api_kwargs=api_kwargs,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 428, in _post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_extbot.py", line 312, in _do_post
+    read_timeout=read_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 459, in _do_post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\request\_baserequest.py", line 172, in post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\request\_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Query is too old and response timeout expired or query id is invalid
+2023-02-01 23:08:39,399 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 94, in button
+    await self.start_button(query_data=query_data)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 106, in start_button
+    await self.start(self.msg_update, self.msg_context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 76, in start
+    self.current_user_id = update.message.from_user.id
+AttributeError: 'tuple' object has no attribute 'message'
+2023-02-01 23:10:00,162 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2023-02-01 23:10:00,163 - telegram.ext._application - INFO - Application.stop() complete
+2023-02-01 23:12:50,457 - telegram.ext._application - INFO - Application started
+2023-02-01 23:12:50,788 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 88, in button
+    await query.answer()
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_callbackquery.py", line 190, in answer
+    api_kwargs=api_kwargs,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_extbot.py", line 762, in answer_callback_query
+    api_kwargs=self._merge_api_rl_kwargs(api_kwargs, rate_limit_args),
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 334, in decorator
+    result = await func(*args, **kwargs)  # skipcq: PYL-E1102
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 3225, in answer_callback_query
+    api_kwargs=api_kwargs,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 428, in _post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_extbot.py", line 312, in _do_post
+    read_timeout=read_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 459, in _do_post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\request\_baserequest.py", line 172, in post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\request\_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Query is too old and response timeout expired or query id is invalid
+2023-02-01 23:12:50,875 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 88, in button
+    await query.answer()
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_callbackquery.py", line 190, in answer
+    api_kwargs=api_kwargs,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_extbot.py", line 762, in answer_callback_query
+    api_kwargs=self._merge_api_rl_kwargs(api_kwargs, rate_limit_args),
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 334, in decorator
+    result = await func(*args, **kwargs)  # skipcq: PYL-E1102
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 3225, in answer_callback_query
+    api_kwargs=api_kwargs,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 428, in _post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_extbot.py", line 312, in _do_post
+    read_timeout=read_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\_bot.py", line 459, in _do_post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\request\_baserequest.py", line 172, in post
+    pool_timeout=pool_timeout,
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\request\_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Query is too old and response timeout expired or query id is invalid
+2023-02-01 23:13:31,202 - root - INFO - message from: вероника, text: 30 
+2023-02-01 23:13:37,584 - root - INFO - message from: вероника, text: 27 
+2023-02-01 23:13:41,803 - root - INFO - message from: вероника, text: 28 
+2023-02-01 23:13:44,390 - root - INFO - message from: вероника, text: 28 
+2023-02-01 23:13:46,759 - root - INFO - message from: вероника, text: 28 
+2023-02-01 23:13:48,854 - root - INFO - message from: вероника, text: 28 
+2023-02-01 23:13:51,525 - root - INFO - message from: вероника, text: 1 
+2023-02-01 23:13:58,959 - root - INFO - message from: вероника, text: 2 
+2023-02-01 23:14:23,761 - root - INFO - message from: вероника, text: (2+4)-3*2 
+2023-02-01 23:15:06,995 - root - INFO - message from: вероника, text: ( 8 + ( 9 + 2 ) ) * ( 3- 6 * 7 / 2 ) 
+2023-02-01 23:15:50,059 - root - INFO - message from: вероника, text: ( 8 + ( 9 + 2  ) * ( 3- 6 * 7 / 2 )) 
+2023-02-01 23:16:33,688 - root - INFO - message from: вероника, text: (( 8 -  9 + 2  )* ( 3+ 6 * 7 / 2 )) 
+2023-02-01 23:16:43,276 - root - INFO - message from: вероника, text: ( 8 -  9 + 2  )* ( 3+ 6 * 7 / 2 ) 
+2023-02-01 23:17:54,117 - root - INFO - message from: вероника, text: 8-9+2+3+6*7/2 
+2023-02-01 23:18:55,219 - root - INFO - message from: вероника, text: ( 3 + ( 1 + 4 ) ) * ( 8 + 1 + 2 ) - ( 3 + 6 * 2 / 3 ) 
+2023-02-01 23:19:25,232 - root - INFO - message from: вероника, text: ( 3 + ( 1 + 4 ) ) * ( 8 + 1 + 2 ) - ( 3 + 6 * 2 / 3 ) 
+2023-02-01 23:22:37,517 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2023-02-01 23:22:37,518 - telegram.ext._application - INFO - Application.stop() complete
+2023-02-01 23:23:46,580 - telegram.ext._application - INFO - Application started
+2023-02-01 23:24:03,605 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 96, in button
+    await self.GameCandy(self.msg_update, self.msg_context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 145, in GameCandy
+    self.current_gamer[update.message.from_user.id] = 'candy'
+AttributeError: 'tuple' object has no attribute 'message'
+2023-02-01 23:24:05,798 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 96, in button
+    await self.GameCandy(self.msg_update, self.msg_context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 145, in GameCandy
+    self.current_gamer[update.message.from_user.id] = 'candy'
+AttributeError: 'tuple' object has no attribute 'message'
+2023-02-01 23:24:48,737 - telegram.ext._application - INFO - Application started
+2023-02-01 23:25:45,039 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 96, in button
+    await self.GameCandy(self.msg_update, self.msg_context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 145, in GameCandy
+    self.current_gamer[update.message.from_user.id] = 'candy'
+AttributeError: 'tuple' object has no attribute 'message'
+2023-02-01 23:25:45,792 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 98, in button
+    await self.GameCalc(self.msg_update, self.msg_context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 153, in GameCalc
+    self.current_gamer[update.message.from_user.id] = 'calc'
+AttributeError: 'tuple' object has no attribute 'message'
+2023-02-01 23:25:47,487 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\nika\Desktop\python\chat_bot\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 94, in button
+    await self.start_button(query_data=query_data)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 106, in start_button
+    await self.start(self.msg_update, self.msg_context)
+  File "c:/Users/nika/Desktop/python/chat_bot/main.py", line 76, in start
+    self.current_user_id = update.message.from_user.id
+AttributeError: 'tuple' object has no attribute 'message'
+2023-02-01 23:27:08,378 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2023-02-01 23:27:08,378 - telegram.ext._application - INFO - Application.stop() complete
