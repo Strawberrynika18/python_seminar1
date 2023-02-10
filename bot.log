@@ -330,3 +330,21 @@ Traceback (most recent call last):
 AttributeError: 'tuple' object has no attribute 'message'
 2023-02-01 23:27:08,378 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
 2023-02-01 23:27:08,378 - telegram.ext._application - INFO - Application.stop() complete
+2023-02-02 10:05:08,224 - telegram.ext._application - INFO - Application started
+2023-02-02 10:05:39,819 - root - INFO - message from: вероника, text: 29 
+2023-02-02 10:05:43,021 - root - INFO - message from: вероника, text: 28 
+2023-02-02 10:05:47,076 - root - INFO - message from: вероника, text: 28 
+2023-02-02 10:05:49,882 - root - INFO - message from: вероника, text: 28 
+2023-02-02 10:05:52,337 - root - INFO - message from: вероника, text: 28 
+2023-02-02 10:05:54,827 - root - INFO - message from: вероника, text: 28 
+2023-02-02 10:06:22,361 - root - INFO - message from: вероника, text: 1 
+2023-02-02 10:06:28,472 - root - INFO - message from: вероника, text: 2 
+2023-02-02 10:06:38,014 - root - INFO - message from: вероника, text: 1+3 
+2023-02-02 10:21:47,709 - root - INFO - message from: вероника, text: 27 
+2023-02-02 10:21:52,110 - root - INFO - message from: вероника, text: 27 
+2023-02-02 10:21:54,797 - root - INFO - message from: вероника, text: 28 
+2023-02-02 10:21:56,965 - root - INFO - message from: вероника, text: 28 
+2023-02-02 10:21:59,891 - root - INFO - message from: вероника, text: 29 
+2023-02-02 10:22:04,351 - root - INFO - message from: вероника, text: 28 
+2023-02-02 10:22:29,750 - root - INFO - message from: вероника, text: 1 
+2023-02-02 10:22:36,560 - root - INFO - message from: вероника, text: 1 
